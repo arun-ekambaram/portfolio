@@ -157,18 +157,16 @@ export default function AboutPage() {
                   These Days
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  I&apos;m immersed in the possibilities of language models. Let
-                  the big tech handle huge computes while I build end-to-end
-                  apps with LLMs, RAG pipelines, and exploring agentic workflows
-                  with LangChain, CrewAI and bunch of other tools. I&apos;m also
-                  diving deep into post-training techniques like RLHF, PPO, DPO,
-                  PEFT and much more. I&apos;m making sure my fundamental
-                  concepts are clear.
+                  I&apos;m exploring end-to-end data science workflows, machine learning models, 
+                  and generative AI systems. I&apos;m learning RAG pipelines, AI agents, and 
+                  agentic AI applications, while leveraging MLOps tools to deploy and 
+                  monitor robust models.  It&apos;s not just about building smarter systems, My focus is on 
+                  building practical, human-centered AI solutions that make a real impact.
                 </p>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
+                {/* <p className="mb-6 text-base leading-8 text-text-secondary">
                   It&apos;s not just about building smarter systems, it&apos;s
                   more about making them useful and human-centered.
-                </p>
+                </p> */}
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
@@ -203,13 +201,12 @@ export default function AboutPage() {
                   Achievements I&apos;m Proud of
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  I&apos;ve been fortunate to celebrate milestones that shaped
-                  me. Being honored with the Chancellor&apos;s Gold Medal as the
-                  best outgoing undergrad, and winning the Best Research Project
-                  Award during my Master&apos;s. I&apos;ve completed impactful
-                  internships at Amazon and JP Morgan, authored research papers,
-                  contributed to 8+ publications and patents, and built a
-                  portfolio of over 10 AI/ML + Full-Stack projects.
+                  During my time at GSK, I optimized workflows, automated processes, 
+                  and earned an e-Card on the Global Recognition Portal for my advanced 
+                  programming. I quickly picked up complex concepts, delivered impactful 
+                  solutions, and demonstrated a fast learning curve while contributing 
+                  effectively to the project. I was also selected for the Amazon ML Summer School, 
+                  ranking in the top 3.5% of 80,000 applicants.
                 </p>
               </div>
               <div className="hidden lg:block">
@@ -232,10 +229,10 @@ export default function AboutPage() {
                 <div className="mb-8 lg:hidden">
                   <AnimatedImage
                     images={[
-                      "/about/about_me_kayaking.jpg",
-                      "/about/about_me_beach_view.jpg",
-                      "/about/about_me_hiking_view.jpeg",
-                      "/about/about_me_biking_view.jpeg",
+                      "/about/about_guitar.png",
+                      "/about/about_shopping.png",
+                      "/about/about_eating.png",
+                      "/about/about_store.png",
                     ]}
                     width={180}
                     height={270}
@@ -259,10 +256,10 @@ export default function AboutPage() {
               <div className="hidden lg:block">
                 <AnimatedImage
                   images={[
-                    "/about/about_me_kayaking.jpg",
-                    "/about/about_me_beach_view.jpg",
-                    "/about/about_me_hiking_view.jpeg",
-                    "/about/about_me_biking_view.jpeg",
+                    "/about/about_guitar.png",
+                    "/about/about_shopping.png",
+                    "/about/about_eating.png",
+                    "/about/about_store.png",
                   ]}
                   width={180}
                   height={270}

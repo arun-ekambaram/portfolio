@@ -44,7 +44,7 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/about/about_board.png"
+                      src="/about/reading.png"
                       alt="Arun Ekambaram"
                       direction="left"
                     />
@@ -53,8 +53,8 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/about/about_working.png"
-                      alt="Charvi Kusuma"
+                      src="/about/laptopworking_g1.png"
+                      alt="Arun Ekambaram"
                       direction="right"
                     />
                   </div>
@@ -62,8 +62,8 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/about/about_coffee.png"
-                      alt="Charvi Kusuma"
+                      src="/about/drinkingcoffee.png"
+                      alt="Arun Ekambaram"
                       direction="left"
                     />
                   </div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/about/me_way.svg"
+                      src="/about/findingway.png"
                       alt="Finding My Way into AI/ML"
                       width={180}
                       height={270}
@@ -129,7 +129,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/about/me_way.svg"
+                    src="/about/findingway.png"
                     alt="Finding My Way into AI/ML"
                     width={180}
                     height={270}
@@ -146,7 +146,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/about/these_days.gif"
+                      src="/about/thesedays.png"
                       alt="These Days"
                       width={180}
                       height={270}
@@ -175,7 +175,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/about/these_days.gif"
+                    src="/about/thesedays.png"
                     alt="These Days"
                     width={180}
                     height={270}
@@ -192,7 +192,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/about/me_coffee.svg"
+                      src="/about/proudachievement.png"
                       alt="Achievements I'm Proud of"
                       width={180}
                       height={270}
@@ -217,7 +217,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/about/me_coffee.svg"
+                    src="/about/proudachievement.png"
                     alt="Achievements I'm Proud of"
                     width={180}
                     height={270}

@@ -16,12 +16,12 @@ export default async function LinksPage() {
 
   return (
     <div className="relative">
-      <title>Links | Charvi Kusuma</title>
+      <title>Links | Arun Ekambaram</title>
       <div className="space-y-12">
         <ProfilePicture />
         <GridWrapper>
           <h1 className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
-            Hey, I&apos;m Charvi!
+            Hey, I&apos;m Arun Ekambaram!
           </h1>
         </GridWrapper>
         <GridWrapper>

@@ -73,6 +73,8 @@ function Sticker({
   });
 
   const { rotate, x } = useRotationVelocity(initialRotation);
+  
+
 
   const stickerVariants = {
     default: {},
@@ -101,6 +103,9 @@ function Sticker({
           opacity: 1,
           scale: 1,
           y: matches && preventYOffset ? Math.abs(initialY) : initialY,
+         
+         
+
         },
       }}
       style={{
@@ -121,7 +126,10 @@ function Sticker({
         }}
         dragElastic={0.8}
         style={{
+          
           rotate: isModal ? 0 : rotate,
+          
+
           x,
         }}
         animate={

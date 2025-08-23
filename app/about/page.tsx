@@ -104,7 +104,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/about/findingway.png"
+                      src="/about/about_finding.jpg"
                       alt="Finding My Way into AI/ML"
                       width={180}
                       height={270}
@@ -129,7 +129,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/about/findingway.png"
+                    src="/about/about_finding.jpg"
                     alt="Finding My Way into AI/ML"
                     width={180}
                     height={270}
@@ -146,7 +146,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/about/thesedays.png"
+                      src="/about/about_coffee_video.gif"
                       alt="These Days"
                       width={180}
                       height={270}
@@ -173,7 +173,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/about/thesedays.png"
+                    src="/about/about_coffee_video.gif"
                     alt="These Days"
                     width={180}
                     height={270}
@@ -190,7 +190,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <Image
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/about/proudachievement.png"
+                      src="/about/about_achivements.jpg"
                       alt="Achievements I'm Proud of"
                       width={180}
                       height={270}
@@ -214,7 +214,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <Image
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/about/proudachievement.png"
+                    src="/about/about_achivements.jpg"
                     alt="Achievements I'm Proud of"
                     width={180}
                     height={270}
@@ -229,10 +229,10 @@ export default function AboutPage() {
                 <div className="mb-8 lg:hidden">
                   <AnimatedImage
                     images={[
-                      "/about/about_guitar.png",
-                      "/about/about_shopping.png",
+                      "/about/pedri&lamine.png",
+                      "/about/about_f1.png",
                       "/about/about_eating.png",
-                      "/about/about_store.png",
+                      "/about/about_shopping.png",
                     ]}
                     width={180}
                     height={270}
@@ -244,22 +244,20 @@ export default function AboutPage() {
                   Life Beyond Code
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  I&apos;m always up for a scenic bike ride, and there&apos;s
-                  something about the ocean breeze and shoreline walks that
-                  instantly clears my head. Weekends often mean fresh bakes from
-                  the kitchen and the thrill of Formula 1, I love trying out new
-                  dessert recipes while cheering on my favorite drivers. Now and
-                  then, you&apos;ll find me rallying on a badminton court,
-                  spinning a foosball table, or kayaking through calm waters.
+                  I love spending time hanging out with friends, exploring new eateries, 
+                  and indulging in a bit of shopping. When I&apos;m not out and about, you&apos;ll often 
+                  find me gaming, catching the latest football matches or Formula 1, 
+                  and keeping up with the excitement of my favorite teams and drivers. 
+                  Weekends are all about balancing fun, food, and a bit of friendly competition.
                 </p>
               </div>
               <div className="hidden lg:block">
                 <AnimatedImage
                   images={[
-                    "/about/about_guitar.png",
-                    "/about/about_shopping.png",
+                    "/about/pedri&lamine.png",
+                    "/about/about_f1.png",
                     "/about/about_eating.png",
-                    "/about/about_store.png",
+                    "/about/about_shopping.png",
                   ]}
                   width={180}
                   height={270}

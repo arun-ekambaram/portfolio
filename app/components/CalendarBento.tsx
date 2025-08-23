@@ -39,7 +39,7 @@ export function CalendarBento() {
     0,
   ).getDate();
 
-  const bookingLink = `https://cal.com/charvi-kusuma/30min?month=${currentYear}-${(
+  const bookingLink = `https://cal.com/arun-ekambaram/30min?month=${currentYear}-${(
     currentDate.getMonth() + 1
   )
     .toString()
